@@ -5,6 +5,7 @@ Implemented code can be found in
 * [src/main/wc.go](https://github.com/Faraaz-Beyabani/NU-Raft-Consensus/blob/master/src/main/wc.go)
 * [src/mapreduce/common_map.go](https://github.com/Faraaz-Beyabani/NU-Raft-Consensus/blob/master/src/mapreduce/common_map.go)
 * [src/mapreduce/common_reduce.go](https://github.com/Faraaz-Beyabani/NU-Raft-Consensus/blob/master/src/mapreduce/common_reduce.go)
+* [src/mapreduce/schedule.go](https://github.com/Faraaz-Beyabani/NU-Raft-Consensus/blob/master/src/mapreduce/schedule.go)
 
 ---
 
@@ -16,4 +17,5 @@ Implemented code can be found in
 * Set GOPATH environment variable in the root folder: `export “GOPATH=$PWD”`
 * Run the following tests:
   * `go test -run Sequential` in `src/mapreduce`
-  * 
+  * `go test -run TestParallel` and `go test -run Failure` in `src/mapreduce`
+  * `go test -run 3A` and `go test -run 3B` in `src/raft`

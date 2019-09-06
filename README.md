@@ -13,6 +13,7 @@ Implemented code can be found in
 
 # Build Instructions
 * Clone this repo
-* Set GOPATH environment variable in the root folder: 'export “GOPATH=$PWD”'
+* Set GOPATH environment variable in the root folder: `export “GOPATH=$PWD”`
 * Run the following tests:
-* *
+  * `go test -run Sequential` in `src/mapreduce`
+  * 

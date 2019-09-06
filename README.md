@@ -13,5 +13,6 @@ Implemented code can be found in
 
 # Build Instructions
 * Clone this repo
-* Set GOPATH environment variable in the root folder
-* 
+* Set GOPATH environment variable in the root folder: 'export “GOPATH=$PWD”'
+* Run the following tests:
+* *
